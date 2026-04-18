@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mono: "JetBrains Mono", "Courier New", Courier, monospace;
+}
+
+:root {
+  --bg: #f4f4f2;
+  --sidebar-bg: #1a1a1a;
+  --ink: #141414;
+  --accent: #2c5282;
+  --line: #d1d1d1;
+  --text-muted: #666;
+  --white: #ffffff;
+  --positive: #2f855a;
+}
+
+@layer base {
+  body {
+    @apply bg-[var(--bg)] text-[var(--ink)] font-sans antialiased overflow-hidden;
+  }
+}
+
+.mono-tabular {
+  font-variant-numeric: tabular-nums;
+  font-family: var(--font-mono);
+}

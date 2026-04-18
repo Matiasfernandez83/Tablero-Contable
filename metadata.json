@@ -1,0 +1,6 @@
+{
+  "name": "Arca Analyzer",
+  "description": "Extractor y dashboard de comprobantes AFIP/ARCA para análisis contable con soporte para puntos de venta y tasas de IVA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
